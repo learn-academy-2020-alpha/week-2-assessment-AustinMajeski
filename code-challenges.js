@@ -2,7 +2,8 @@
 
 
 ///
-function log() { console.log("\n"); Array.from(arguments).forEach(out => console.log(out)) }
+const LINE = "--------------------------"
+function log() { console.log(`${LINE}\n`);  Array.from(arguments).forEach(out => console.log(out));  console.log(`\n${LINE}\n`); }
 ///
 
 
